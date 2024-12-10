@@ -8,7 +8,7 @@ public class OBJ_Chest extends SuperObject{
     public OBJ_Chest() {
         name = "Chest";
         try {
-            image = ImageIO.read(new File("javaSwingProject/res/objects/chest (OLD).png"));
+            image = ImageIO.read(new File("javaSwing\\res\\object\\chest (OLD).png"));
         }catch (IOException e){
             e.printStackTrace();
         }

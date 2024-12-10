@@ -4,12 +4,11 @@ import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 
-public class OBJ_Key extends SuperObject{
-
-    public OBJ_Key() {
-        name = "Key";
+public class OBJ_Boots extends SuperObject{
+    public OBJ_Boots() {
+        name = "Boots";
         try {
-            image = ImageIO.read(new File("javaSwing\\res\\object\\key.png"));
+            image = ImageIO.read(new File("javaSwing\\res\\object\\boots.png"));
         }catch (IOException e){
             e.printStackTrace();
         }
